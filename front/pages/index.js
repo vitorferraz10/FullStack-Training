@@ -25,7 +25,6 @@ export default function Home() {
     });
     setSuccess(true);
     const json = await response.json();
-
     return json;
   }
 
